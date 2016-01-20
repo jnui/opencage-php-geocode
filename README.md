@@ -23,4 +23,9 @@ the api is not fast - each request was at least a half second.
 I think it would be good if I could make use of curl's new feature of being able to make more than one request at a time.
 10 requests at a time would make this fly.
 
-
+# output
+this script will output each address as it gets the result by flushing cash
+here is an example 
+```PHP
+[{"lat":41.9168584596, "long":-87.9037111844, "zip":60164 }, {"lat":41.9144342, "long":-87.9035065, "zip":60164 }, {}]
+```
