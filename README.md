@@ -8,8 +8,13 @@ https://github.com/opencagedata/php-opencage-geocode
 the openCage geocoder is an online resource , more info about the php library is here
 http://geocoder.opencagedata.com/code.html#code-php 
 
+You need to get an API key from openCage - it is free to get an api key.
+(place the key into the script otherwise the script will not work)
+
 # notes / usage
-The openCage api allows for 2500 requests per day, you can pay for more 
+The openCage free api allows for 2500 requests per day, you can pay for more 
+
+This script will not work until you insert your openCage api Key into the script.
 
 my particular script requires that you create an array of addresses, to be more accurate it requires an array of arrays each sub array has the street address with state and zip, and a second field with the zip code separately.
 
