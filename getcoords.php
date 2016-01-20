@@ -4,7 +4,7 @@
 require_once('../src/OpenCage.Geocoder.php');
 
 //$query = "82 Clerkenwell Road, London";
-$key = 'c9247a2c8cb68f9e464268ab2807596d';
+$key = 'use your free openCage key here';
 //$geocoder = new OpenCage\Geocoder($key);
 //$result = $geocoder->geocode($query);
 //print_r($result);
