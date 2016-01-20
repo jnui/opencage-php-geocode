@@ -17,3 +17,10 @@ my requirements were to output the coordinates, and the zip code separately as I
 
 I required the zip code because the requirement was to be able to filter by zip code, to see customers within a zip code.
 
+# possible improvements
+
+the api is not fast - each request was at least a half second.
+I think it would be good if I could make use of curl's new feature of being able to make more than one request at a time.
+10 requests at a time would make this fly.
+
+
